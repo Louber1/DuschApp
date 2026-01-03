@@ -24,6 +24,13 @@ export const Home: React.FC = () => {
     setIsLastPhase,
   } = useShowerTimer(config);
 
+  // Re-enable NoSleep on phase changes to keep screen awake throughout all cycles
+  React.useEffect(() => {
+    if (phase === 'hot' || phase === 'cold') {
+      enableNoSleep();
+    }
+  }, [phase, enableNoSleep]);
+
   // Duration presets in minutes
   const durationPresets = [10, 15, 20, 25];
 

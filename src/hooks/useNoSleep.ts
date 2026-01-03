@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import NoSleep from 'nosleep.js';
 
 /**
@@ -17,7 +17,7 @@ export const useNoSleep = () => {
     };
   }, []);
 
-  const enableNoSleep = () => {
+  const enableNoSleep = useCallback(() => {
     try {
       if (noSleepRef.current && !noSleepRef.current.isEnabled) {
         noSleepRef.current.enable();
@@ -26,9 +26,9 @@ export const useNoSleep = () => {
     } catch (err) {
       console.error('NoSleep enable error:', err);
     }
-  };
+  }, []);
 
-  const disableNoSleep = () => {
+  const disableNoSleep = useCallback(() => {
     try {
       if (noSleepRef.current && noSleepRef.current.isEnabled) {
         noSleepRef.current.disable();
@@ -37,7 +37,7 @@ export const useNoSleep = () => {
     } catch (err) {
       console.error('NoSleep disable error:', err);
     }
-  };
+  }, []);
 
   return { enableNoSleep, disableNoSleep };
 };
