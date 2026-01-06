@@ -45,15 +45,15 @@ export const SetupScreen: React.FC<SetupScreenProps> = ({ onStartShower, duratio
             <div className="protocol-item hot-item">
               <span className="protocol-label">HOT</span>
               <span className="protocol-temp">38-43°C</span>
-              <span className="protocol-time">~4 min</span>
+              <span className="protocol-time">~2-4 min</span>
             </div>
             <div className="protocol-item cold-item">
               <span className="protocol-label">COLD</span>
               <span className="protocol-temp">10-16°C</span>
-              <span className="protocol-time">~2 min</span>
+              <span className="protocol-time">~1-2 min</span>
             </div>
           </div>
-          <p className="protocol-note">3-5 cycles • Always ends with cold</p>
+          <p className="protocol-note">3-4 cycles • Always ends with cold</p>
         </div>
       </div>
     </div>
