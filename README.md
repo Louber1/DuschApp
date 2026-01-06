@@ -49,10 +49,6 @@ React 19, TypeScript, NoSleep.js, Create React App
 3. Follow the timer (hot → cold cycles)
 4. Complete all cycles
 
-## Health Note
-
-⚠️ Contrast showers aren't for everyone. Consult your doctor before starting, especially if you have cardiovascular conditions or are pregnant.
-
 ## Author
 
 [@Louber1](https://github.com/Louber1)
