@@ -193,6 +193,23 @@ body {
   margin-top: 10px;
 }
 
+.disclaimer {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 18px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.disclaimer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.92;
+}
+
 /* Hot and Cold Phase Colors */
 .hot-phase {
   background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%);

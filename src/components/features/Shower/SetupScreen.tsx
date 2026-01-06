@@ -55,6 +55,10 @@ export const SetupScreen: React.FC<SetupScreenProps> = ({ onStartShower, duratio
           </div>
           <p className="protocol-note">3-4 cycles • Always ends with cold</p>
         </div>
+
+        <div className="disclaimer">
+          <p>⚠️ Important: Do not use this protocol when sick, feverish, or physically weakened. Consult a healthcare professional if you have any medical conditions.</p>
+        </div>
       </div>
     </div>
   );
