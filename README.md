@@ -8,7 +8,7 @@ Web App for contrast showers. Built with React + TypeScript.
 
 - ⏱️ Automated hot/cold cycles
 - 🎯 Duration presets: 10, 15, 20, 25 minutes
-- 🔄 3-5 cycles auto-calculated to fit total time
+- 🔄 3-4 cycles auto-calculated to fit total time
 - ⏸️ Pause/resume controls
 - 📱 Screen stays awake (NoSleep.js)
 - 💾 Installable as PWA (Progressive Web App)
