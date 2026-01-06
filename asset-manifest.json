@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DuschApp/static/css/main.4c3763a3.css",
-    "main.js": "/DuschApp/static/js/main.e47cb836.js",
+    "main.css": "/DuschApp/static/css/main.842166ca.css",
+    "main.js": "/DuschApp/static/js/main.410eb034.js",
     "static/js/453.bbf56638.chunk.js": "/DuschApp/static/js/453.bbf56638.chunk.js",
     "index.html": "/DuschApp/index.html",
-    "main.4c3763a3.css.map": "/DuschApp/static/css/main.4c3763a3.css.map",
-    "main.e47cb836.js.map": "/DuschApp/static/js/main.e47cb836.js.map",
+    "main.842166ca.css.map": "/DuschApp/static/css/main.842166ca.css.map",
+    "main.410eb034.js.map": "/DuschApp/static/js/main.410eb034.js.map",
     "453.bbf56638.chunk.js.map": "/DuschApp/static/js/453.bbf56638.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c3763a3.css",
-    "static/js/main.e47cb836.js"
+    "static/css/main.842166ca.css",
+    "static/js/main.410eb034.js"
   ]
 }
