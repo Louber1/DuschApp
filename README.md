@@ -4,6 +4,8 @@ Web App for contrast showers. Built with React + TypeScript.
 
 **[Try it live →](https://Louber1.github.io/DuschApp)**
 
+⚠️ Important: Do not use this protocol when sick, feverish, or physically weakened. Consult a healthcare professional if you have any medical conditions.
+
 ## Features
 
 - ⏱️ Automated hot/cold cycles
