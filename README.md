@@ -48,11 +48,3 @@ React 19, TypeScript, NoSleep.js, Create React App
 2. Start your shower
 3. Follow the timer (hot → cold cycles)
 4. Complete all cycles
-
-## Author
-
-[@Louber1](https://github.com/Louber1)
-
----
-
-Made with 💙 for better recovery
